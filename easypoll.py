@@ -129,13 +129,13 @@ class EasyPoll(discord.Client):
 if __name__ == "__main__":
     
     load_dotenv()
-    # token = os.getenv("DISCORD_TOKEN")
-    # client = EasyPoll()
-    # client.run(token)
+    token = os.getenv("DISCORD_TOKEN")
+    client = EasyPoll()
+    client.run(token)
 
     client = EasyPoll()
     client.send_reactions
-    client.run("MTAzMjU5MzEyMzI0MDU3OTA4Mg.G4-wx1.4ArGj9GacU9UQUk096_c4TMtOjm-py5thCjbFs")
+    
 
 
 
